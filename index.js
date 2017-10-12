@@ -2,7 +2,7 @@
 /*1. Write a function named `happyHolidays`. This function should not accept any
 parameters and should return the string `"Happy holidays!"`.*/
 
-function happyHolidays (){
+function happyHolidays() {
   return "Happy holidays!"
 }
 
@@ -12,7 +12,7 @@ parameter of the name of the person you want to wish happy holidays, and return
 the string `` `Happy holidays, ${name}!` ``*/
 
 function happyHolidayTo(name){
-  return ${name}
+  return "${name}""
 }
 
 
