@@ -12,7 +12,7 @@ parameter of the name of the person you want to wish happy holidays, and return
 the string `` `Happy holidays, ${name}!` ``*/
 
 function happyHolidaysTo(name){
-  return "Happy holidays ${name}!"
+  return "Happy holidays ${you}!"
 }
 
 
@@ -33,5 +33,3 @@ should return the string `` `It's ${days} days until ${holiday}!` ``*/
 function holidayCountdown (holiday, days){
   return "It's ${days} days until ${holiday}!"
 }
-
-happyHolidaysTo("you");
